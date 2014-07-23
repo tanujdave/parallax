@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Stellar.js - iOS Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<style type="text/css">
+
+            #bg{background:url('http://static.tumblr.com/3lhmsqm/2Ktn3pgnl/vertical-bg.png') repeat;height:100%;width:100%;top:0;left:0;background-attachment: fixed;position: fixed;z-index: -1;}
+            .container{width: 600px;height: 2000px;background: #FFF;margin: 0 auto;padding: 20px;height: auto;}
+
+		</style>
+
+        <script src="scrollability.js"></script>
+        <script src="jquery.js"></script>
+        <script src="stellar.js"></script>
+		<script language="javascript">		
+		$(function(){
+//			$('.bg').stellar({
+//				horizontalScrolling: false,
+//				scrollProperty: 'transform',
+//				positionProperty: 'transform',
+//				verticalOffset: -100
+//			});
+            $('#wrapper').stellar({
+                horizontalScrolling: false,
+				scrollProperty: 'transform',
+                verticalOffset: -100,
+				positionProperty: 'transform'
+            });
+		});
+		</script>
+
+
+</head>
+	<body id="wrapper">
+        <div id="bg" class="scrollable vertical" data-stellar-background-ratio="0.2"></div>
+	    <div class="container">parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.
+            parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.parallaxSwipe for all touch and web browsers including iOS touch screens.
+            This week I looked at a jQuery parallax plugin by Jonathan Nicol at f6design. So, I grapped it and then spent hours designing a page to use for an iPad project for a car manufacturer. It worked OK in my browsers and my Android touch pad but not at all on my Apple iPod.
+
+            I then Googled the problem and got a link to a forum on css-tricks that explained Apples problems. Next, I saw a link on the forum to a Nike page that said the Nike jumpman23 parallax page actually worked on his iPad. See jumpman23 (really nice effect).
+
+            Well, you guessed it: I looked at the Nike source code and saw a billion js files. So, rather then sift through them, I though: ‘Hey, my mouseSwipe plugin (bottom of page) could do it by adding top layers and looping though them setting different speeds per layer.’
+
+            My mouseSwipe plugin does not use browser scroll functions, just math to position its swipe page. I then removed the panel swipe code and other features to leave just the swiping code I wrote for the plugin. Next, I only added three lines of code using the jQuery each() and an array to hold the speed of each parallax layers. My CSS file took care of the positioning.
+
+            Here’s the Demo: I used the images and layout from f6Design but shrunk them and re-arranged the layout to explain the code better.        </div>
+    </body>
+</html>
